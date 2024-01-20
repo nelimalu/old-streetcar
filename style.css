@@ -44,6 +44,7 @@ body {
 #content {
 	z-index: 2;
 	background: rgba(255,255,255,0.5);
+	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 	height: 100vh;
 	transition-duration: .3s;
@@ -58,6 +59,7 @@ body {
 
 #content:active  {
 	backdrop-filter: blur(0px);
+	-webkit-backdrop-filter: blur(0px);
 	background: rgba(255,255,255,0);
 	opacity: 0;
 }
