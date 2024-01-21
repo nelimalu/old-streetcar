@@ -82,7 +82,6 @@ body {
 	font-family: louisgeorge;
 	padding-left: 10%;
 	padding-right: 10%;
-	margin-bottom: 5%;
 	font-size: 100%;
 
 }
@@ -102,6 +101,12 @@ body {
 	font-family: louisgeorge;
 	font-weight: bold;
 
+}
+
+.small {
+	font-family: louisgeorge;
+	font-size: 70%;
+	margin: 2.5%;
 }
 
 
